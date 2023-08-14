@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 16,
+    "better-comments.highlightPlainText": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "scm.inputFontSize": 13,
+    "markdown.preview.fontSize": 14,
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
+    "materialTheme.accent": "Graphite",
+    "typescript.inlayHints.enumMemberValues.enabled": true
+}
