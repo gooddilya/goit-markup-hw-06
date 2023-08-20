@@ -17,6 +17,7 @@
     />
     <!-- FONTS FONTS FONTS FONTS FONTS -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -82,9 +83,147 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-open" data-menu-open>
+          <svg class="burger-menu" width="32" height="22">
+            <use
+              href="./images/icons.svg#icon-menu-hamburger"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <!-- mobile menu -->
+      <div class="mobile-menu is-hidden" data-menu>
+        <button
+        class="modal-button-close"
+        data-menu-close
+        type="button"
+      >
+        <svg
+          class="modal-close-icon"
+          width="8"
+          height="8"
+        >
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+        <!-- links studio portfolio contacts -->
+        <div>
+          <ul class="burger-list-link list">
+            <li class="burger-menu-item link">
+              <a
+                class="burger-link-menu current link"
+                href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="burger-menu-item link">
+              <a
+                class="burger-link-menu link"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="burger-menu-item link">
+              <a class="burger-link-menu link" href=""
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- number mail social -->
+        <div>
+          <address class="burger-address">
+            <ul class="burger-address-list list">
+              <li class="burger-address-item link">
+                <a
+                  class="burger-link-tel link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="burger-address-item link">
+                <a
+                  class="burger-link-address link"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="burger-social-icon list">
+            <li class="burger-social-item">
+              <a
+                class="burger-links link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg
+                  class="card-icons"
+                  width="24"
+                  height="24"
+                >
+                  <use
+                    href="./images/icons.svg#icon-instagram-2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-social-item">
+              <a
+                class="burger-links link"
+                href="https://twitter.com/"
+                target="_blank"
+              >
+                <svg
+                  class="card-icons"
+                  width="24"
+                  height="24"
+                >
+                  <use
+                    href="./images/icons.svg#icon-twitter-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-social-item">
+              <a
+                class="burger-links link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg
+                  class="card-icons"
+                  width="24"
+                  height="24"
+                >
+                  <use
+                    href="./images/icons.svg#icon-facebook-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-social-item">
+              <a
+                class="burger-links link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+              >
+                <svg
+                  class="card-icons"
+                  width="24"
+                  height="24"
+                >
+                  <use
+                    href="./images/icons.svg#icon-linkedin-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
-
     <main>
       <!------------------------ HERO ------------------------>
       <section class="hero">
@@ -189,7 +328,7 @@
           </ul>
         </div>
       </section>
-      <!-- 3 ABOUT US -->
+      <!-- 3 WHAT WE DO -->
       <section class="about">
         <div class="container">
           <h2 class="about-subtitle">What are we doing</h2>
@@ -825,9 +964,9 @@
             </div>
           </div>
           <div class="modal-field">
-          <label for="tel" class="modal-label">
-            Phone
-          </label>
+            <label for="tel" class="modal-label">
+              Phone
+            </label>
             <div class="modal-input-wrap">
               <input
                 class="modal-input"
@@ -886,7 +1025,6 @@
               id="user-privacy"
               name="user-privacy"
               value="true"
-              
             />
             <label for="user-privacy" class="accept-link">
               <span class="privacy-span">
@@ -913,5 +1051,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

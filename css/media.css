@@ -1,0 +1,231 @@
+/* ==================428px MOBILE 428px================== */
+@media screen and (min-width: 428px) {
+  /* ADVANTAGES ADVANTAGES ADVANTAGES ADVANTAGES */
+  .container {
+    max-width: 396px;
+  }
+}
+
+/* ==================768px LAPTOP 768px================== */
+@media screen and (min-width: 768px) {
+  /* HEADER HEADER HEADER HEADER HEADER*/
+  .burger-open{
+    display: none;
+  }
+
+  .header-navigation{
+    display: flex;
+  }
+  
+  /*  HERO HERO HERO HERO HERO */
+  .hero {
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-image-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-image-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    margin: 0 auto 36px auto;
+    max-width: 496px;
+  }
+
+  /* ADVANTAGES ADVANTAGES ADVANTAGES ADVANTAGES */
+  .container {
+    max-width: 768px;
+  }
+
+  .advantage-list {
+    gap: 72px 24px;
+  }
+
+  .advantage-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* 4 OUR TEAM   OUR TEAM   OUR TEAM  OUR TEAM*/
+  .team-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px 24px;
+  }
+
+  /* 5 CUSTOMER CUSTOMER CUSTOMER CUSTOMER */
+  .customer > .container {
+    max-width: 552px;
+  }
+
+  .customer-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+
+  /* 6 FOOTER FOOTER FOOTER FOOTER FOOTER */
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container.footer {
+    gap: 72px 24px;
+    margin-left: 108px;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .container-description {
+    align-items: flex-start;
+  }
+  .container-social {
+    align-items: flex-start;
+  }
+
+  .input-email-footer {
+    width: 264px;
+  }
+
+  .form-footer {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .subscribe-button {
+    margin: 0;
+    flex-direction: row;
+  }
+
+  .container-subscribe {
+    align-items: flex-start;
+  }
+}
+/* ==================1158PX DESKTOP 1158PX================== */
+@media screen and (min-width: 1158px) {
+  /*  HERO HERO HERO HERO HERO */
+  .hero {
+    max-width: 1158px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-image.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-image-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin: 0 auto 48px auto;
+  }
+
+  /* ADVANTAGES ADVANTAGES ADVANTAGES ADVANTAGES */
+  .container {
+    max-width: 1158px;
+  }
+
+  .advantage {
+    padding: 120px 0;
+  }
+  .advantage-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .advantage-subtitle {
+    color: var(--navy-blue);
+    font-size: 20px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .advantage-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
+  .container-icon-advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--cloud);
+    position: relative;
+    padding: 24px 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  /* 3 WHAT WE DO   WHAT WE DO   WHAT WE DO */
+  .about {
+    padding-bottom: 120px;
+    display: flex;
+  }
+
+  /* 4 OUR TEAM */
+  .team {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 24px;
+  }
+  /* 5 CUSTOMER CUSTOMER CUSTOMER CUSTOMER */
+  .customer {
+    padding: 120px 0;
+  }
+
+  .customer > .container {
+    max-width: 1158px;
+  }
+  .customer-item {
+    width: calc((100% - 120px) / 6);
+  }
+
+  .customer-list {
+    gap: 24px;
+    max-width: 1128px;
+  }
+
+  /* 6 FOOTER */
+  .footer {
+    padding: 100px 0;
+  }
+
+  .container.footer {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .container-social {
+    margin-right: 80px;
+  }
+
+  .container-description {
+    margin-right: 120px;
+  }
+}

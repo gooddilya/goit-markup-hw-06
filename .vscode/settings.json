@@ -1,12 +1,15 @@
 {
     "files.autoSave": "onWindowChange",
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "better-comments.highlightPlainText": true,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "scm.inputFontSize": 13,
     "markdown.preview.fontSize": 14,
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-    "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
-    "materialTheme.accent": "Graphite",
-    "typescript.inlayHints.enumMemberValues.enabled": true
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "workbench.preferredHighContrastLightColorTheme": "Abyss",
+    "materialTheme.accent": "Yellow",
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "editor.cursorStyle": "line",
+    "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern"
 }
