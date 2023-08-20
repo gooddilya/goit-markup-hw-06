@@ -9,14 +9,52 @@
 /* ==================768px LAPTOP 768px================== */
 @media screen and (min-width: 768px) {
   /* HEADER HEADER HEADER HEADER HEADER*/
-  .burger-open{
+  .burger-open {
     display: none;
   }
 
-  .header-navigation{
+  .header-navigation {
     display: flex;
   }
-  
+
+  .header-address-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-link-address {
+    padding: 0;
+    font-size: 12px;
+    padding: 0;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+  }
+
+  .header-address {
+    padding: 16px 0;
+  }
+
+  .header-list {
+    display: flex;
+  }
+
+  .header-menu-item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+
+  .header-menu-item {
+    display: flex;
+  }
+
+  .header-link-menu {
+    display: flex;
+  }
   /*  HERO HERO HERO HERO HERO */
   .hero {
     max-width: 768px;
@@ -134,6 +172,26 @@
         ),
         url(../images/hero-image-tab-2x.jpg);
     }
+  }
+
+  .header-address-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .header-link-address {
+    font-size: 16px;
+    padding: 0;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+  }
+
+  .header-address {
+    padding: 0;
+  }
+  .header-address-item {
+    padding: 24px 0;
   }
 
   .hero-title {
